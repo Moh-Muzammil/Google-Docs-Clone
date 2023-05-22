@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+.docs-main {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.add-docs {
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+#addImage{
+    border: 2px solid black;
+    width: 50%;
+}
+
+.add-input {
+    width: 95%;
+    height: 40px;
+    outline: none;
+    border: 1px solid #676767;
+    border-radius: 0px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-container {
+    text-align: center;
+    margin: 30px;
+}
+
+.grid-main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: whitesmoke;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.grid-child {
+    padding: 20px;
+    background-color: rgb(98, 98, 98);
+    width: 180px;
+    height:230px;
+    cursor: pointer;
+}
+
+#docTitle{
+    margin-top:100px;
+}
+
+.editDocs-main {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Toolbar{
+    display:block;
+    width: 90rem;
+    justify-content: left;
+}
+
+#docTitle{
+    vertical-align:60%;
+}
+
+#tools{
+    display: inline-block;
+    margin-left: -25px;
+    
+}
+
+#share{
+    float: right;
+    margin-right:100px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: Google Sans,Roboto,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    padding: 9px 24px;
+    white-space: nowrap;
+    background: #c2e7ff;
+    color: #001d35;
+}
+
+.editDocs-inner {
+    width: 800px;
+    box-shadow: 0px -2px 5px 2px rgba(181, 181, 181, 0.75);
+    -webkit-box-shadow: 0px -2px 5px 2px rgba(181, 181, 181, 0.75);
+    -moz-box-shadow: 0px -2px 5px 2px rgba(181, 181, 181, 0.75);
+    padding: 20px;
+    height: 750px;
+}
+
+.ql-container.ql-snow {
+    border: none !important;
+}
+
+#docsTitle{
+    vertical-align:40%;
+}
